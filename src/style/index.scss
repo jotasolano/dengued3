@@ -1,0 +1,14 @@
+// Base css
+@import "base/clear.scss";
+
+// Dependencies
+@import "dependencies/bootstrap";
+@import "dependencies/leaflet.scss";
+
+// ------- Project ------- //
+@import "base/typography.scss";
+@import "variables";
+// Sections
+@import "sections/header.scss";
+@import "sections/footer.scss";
+

@@ -1,0 +1,555 @@
+[
+  {
+    "canton": "San Jose Central",
+    "casos": 447,
+    "tasa": 133.8403497,
+    "lat": 9.927665,
+    "lng": -84.090686
+  },
+  {
+    "canton": "Escazu",
+    "casos": 14,
+    "tasa": 21.00462102,
+    "lat": 9.920626,
+    "lng": -84.146503
+  },
+  {
+    "canton": "Desamparados",
+    "casos": 109,
+    "tasa": 46.70894755,
+    "lat": 9.896799,
+    "lng": -84.061728
+  },
+  {
+    "canton": "Puriscal",
+    "casos": 54,
+    "tasa": 148.8751654,
+    "lat": 9.849866,
+    "lng": -84.315897
+  },
+  {
+    "canton": "Aserri",
+    "casos": 7,
+    "tasa": 11.52453079,
+    "lat": 9.864283,
+    "lng": -84.093698
+  },
+  {
+    "canton": "Mora",
+    "casos": 23,
+    "tasa": 79.29120557,
+    "lat": 9.874166,
+    "lng": -84.282222
+  },
+  {
+    "canton": "Goicoechea",
+    "casos": 31,
+    "tasa": 23.44754557,
+    "lat": 9.948091,
+    "lng": -84.050238
+  },
+  {
+    "canton": "Santa Ana",
+    "casos": 36,
+    "tasa": 63.63797066,
+    "lat": 9.926987,
+    "lng": -84.183032
+  },
+  {
+    "canton": "Alajuelita",
+    "casos": 37,
+    "tasa": 42.17293182,
+    "lat": 9.900265,
+    "lng": -84.098647
+  },
+  {
+    "canton": "Coronado",
+    "casos": 17,
+    "tasa": 25.02318324,
+    "lat": 9.970641,
+    "lng": -84.001357
+  },
+  {
+    "canton": "Acosta",
+    "casos": 2,
+    "tasa": 9.44777741,
+    "lat": 9.799412,
+    "lng": -84.163411
+  },
+  {
+    "canton": "Tibas",
+    "casos": 35,
+    "tasa": 42.94162393,
+    "lat": 9.964428,
+    "lng": -84.077726
+  },
+  {
+    "canton": "Moravia",
+    "casos": 26,
+    "tasa": 42.81315352,
+    "lat": 9.963545,
+    "lng": -84.046987
+  },
+  {
+    "canton": "Montes de Oca",
+    "casos": 16,
+    "tasa": 26.06457498,
+    "lat": 9.930278,
+    "lng": -84.050909
+  },
+  {
+    "canton": "Turrubares",
+    "casos": 73,
+    "tasa": 1132.836747,
+    "lat": 9.908942,
+    "lng": -84.442356
+  },
+  {
+    "canton": "Curridabat",
+    "casos": 26,
+    "tasa": 34.06128411,
+    "lat": 9.914271,
+    "lng": -84.038958
+  },
+  {
+    "canton": "Perez Zeledon",
+    "casos": 204,
+    "tasa": 143.6639953,
+    "lat": 9.367958,
+    "lng": -83.688591
+  },
+  {
+    "canton": "Los Santos",
+    "casos": 8,
+    "tasa": 20.7824596,
+    "lat": 9.664972,
+    "lng": -84.019946
+  },
+  {
+    "canton": "Alajuela Central",
+    "casos": 1833,
+    "tasa": 624.3166747,
+    "lat": 10.021996,
+    "lng": -84.20416
+  },
+  {
+    "canton": "San Ramon",
+    "casos": 2,
+    "tasa": 2.257081593,
+    "lat": 10.091022,
+    "lng": -84.470721
+  },
+  {
+    "canton": "Grecia",
+    "casos": 111,
+    "tasa": 126.628488,
+    "lat": 10.07397,
+    "lng": -84.314887
+  },
+  {
+    "canton": "San Mateo",
+    "casos": 10,
+    "tasa": 147.3839352,
+    "lat": 9.940974,
+    "lng": -84.527779
+  },
+  {
+    "canton": "Atenas",
+    "casos": 294,
+    "tasa": 1057.630045,
+    "lat": 9.97855,
+    "lng": -84.374099
+  },
+  {
+    "canton": "Naranjo",
+    "casos": 66,
+    "tasa": 142.9499675,
+    "lat": 10.097388,
+    "lng": -84.382679
+  },
+  {
+    "canton": "Palmares",
+    "casos": 1,
+    "tasa": 2.594639475,
+    "lat": 10.060727,
+    "lng": -84.437485
+  },
+  {
+    "canton": "Poas",
+    "casos": 33,
+    "tasa": 104.4865909,
+    "lat": 10.077783,
+    "lng": -84.246141
+  },
+  {
+    "canton": "Orotina",
+    "casos": 99,
+    "tasa": 447.9840717,
+    "lat": 9.919266,
+    "lng": -84.52735
+  },
+  {
+    "canton": "San Carlos",
+    "casos": 53,
+    "tasa": 28.68539697,
+    "lat": 10.327034,
+    "lng": -84.436515
+  },
+  {
+    "canton": "Alfaro Ruiz",
+    "casos": 1,
+    "tasa": 7.37082627,
+    "lat": 10.186623,
+    "lng": -84.391995
+  },
+  {
+    "canton": "Valverde Vega",
+    "casos": 0,
+    "tasa": 0,
+    "lat": 10.089713,
+    "lng": -84.347406
+  },
+  {
+    "canton": "Upala",
+    "casos": 7,
+    "tasa": 13.87127457,
+    "lat": 10.89821,
+    "lng": -85.015533
+  },
+  {
+    "canton": "Los Chiles",
+    "casos": 2,
+    "tasa": 6.650262685,
+    "lat": 11.033622,
+    "lng": -84.712787
+  },
+  {
+    "canton": "Guatuso",
+    "casos": 1,
+    "tasa": 5.537405172,
+    "lat": 10.670561,
+    "lng": -84.820225
+  },
+  {
+    "canton": "Cartago Central",
+    "casos": 6,
+    "tasa": 3.802425948,
+    "lat": 9.863169,
+    "lng": -83.915577
+  },
+  {
+    "canton": "Paraiso",
+    "casos": 6,
+    "tasa": 9.925886713,
+    "lat": 9.838101,
+    "lng": -83.871309
+  },
+  {
+    "canton": "La Union",
+    "casos": 11,
+    "tasa": 10.32960841,
+    "lat": 9.910279,
+    "lng": -83.995253
+  },
+  {
+    "canton": "Jimenez",
+    "casos": 0,
+    "tasa": 0,
+    "lat": 9.891217,
+    "lng": -83.743909
+  },
+  {
+    "canton": "Turrialba",
+    "casos": 40,
+    "tasa": 54.45659129,
+    "lat": 9.906616,
+    "lng": -83.679557
+  },
+  {
+    "canton": "Alvarado",
+    "casos": 0,
+    "tasa": 0,
+    "lat": 9.914469,
+    "lng": -83.807702
+  },
+  {
+    "canton": "Oreamuno",
+    "casos": 5,
+    "tasa": 10.41493084,
+    "lat": 9.866325,
+    "lng": -83.903253
+  },
+  {
+    "canton": "El Guarco",
+    "casos": 0,
+    "tasa": 0,
+    "lat": 9.84484,
+    "lng": -83.945133
+  },
+  {
+    "canton": "Heredia Central",
+    "casos": 64,
+    "tasa": 47.30508825,
+    "lat": 9.997137,
+    "lng": -84.118323
+  },
+  {
+    "canton": "Barva",
+    "casos": 5,
+    "tasa": 11.42178363,
+    "lat": 10.019013,
+    "lng": -84.123899
+  },
+  {
+    "canton": "Santo Domingo",
+    "casos": 25,
+    "tasa": 53.52172982,
+    "lat": 9.98044,
+    "lng": -84.091343
+  },
+  {
+    "canton": "Santa Barbara",
+    "casos": 22,
+    "tasa": 55.21672565,
+    "lat": 10.037087,
+    "lng": -84.157463
+  },
+  {
+    "canton": "San Rafael",
+    "casos": 15,
+    "tasa": 28.99335086,
+    "lat": 10.014366,
+    "lng": -84.098641
+  },
+  {
+    "canton": "San Isidro",
+    "casos": 7,
+    "tasa": 31.83989083,
+    "lat": 10.018206,
+    "lng": -84.055682
+  },
+  {
+    "canton": "Belen",
+    "casos": 37,
+    "tasa": 146.2681847,
+    "lat": 9.979935,
+    "lng": -84.184375
+  },
+  {
+    "canton": "Flores",
+    "casos": 34,
+    "tasa": 145.137881,
+    "lat": 10.006228,
+    "lng": -84.157663
+  },
+  {
+    "canton": "San Pablo",
+    "casos": 20,
+    "tasa": 66.34819533,
+    "lat": 10.000422,
+    "lng": -84.086791
+  },
+  {
+    "canton": "Sarapiqui",
+    "casos": 143,
+    "tasa": 198.0115761,
+    "lat": 10.454166,
+    "lng": -84.018964
+  },
+  {
+    "canton": "Liberia",
+    "casos": 621,
+    "tasa": 885.776231,
+    "lat": 10.635277,
+    "lng": -85.443121
+  },
+  {
+    "canton": "Nicoya",
+    "casos": 1355,
+    "tasa": 2517.230489,
+    "lat": 10.144774,
+    "lng": -85.453248
+  },
+  {
+    "canton": "Santa Cruz",
+    "casos": 1584,
+    "tasa": 2518.60332,
+    "lat": 10.261098,
+    "lng": -85.584312
+  },
+  {
+    "canton": "Bagaces",
+    "casos": 75,
+    "tasa": 336.3077889,
+    "lat": 10.52724,
+    "lng": -85.255612
+  },
+  {
+    "canton": "Carrillo",
+    "casos": 693,
+    "tasa": 1674.317468,
+    "lat": 9.868843,
+    "lng": -85.480738
+  },
+  {
+    "canton": "Ca�as",
+    "casos": 495,
+    "tasa": 1607.5082,
+    "lat": 10.42743,
+    "lng": -85.093779
+  },
+  {
+    "canton": "Abangares",
+    "casos": 1827,
+    "tasa": 9483.027094,
+    "lat": 10.28117,
+    "lng": -84.959584
+  },
+  {
+    "canton": "Tilaran",
+    "casos": 12,
+    "tasa": 57.01525158,
+    "lat": 10.456483,
+    "lng": -84.971763
+  },
+  {
+    "canton": "Nandayure",
+    "casos": 106,
+    "tasa": 914.2659997,
+    "lat": 9.992402,
+    "lng": -85.253142
+  },
+  {
+    "canton": "La Cruz",
+    "casos": 66,
+    "tasa": 268.674944,
+    "lat": 11.070771,
+    "lng": -85.630617
+  },
+  {
+    "canton": "Hojancha",
+    "casos": 117,
+    "tasa": 1508.31507,
+    "lat": 10.057663,
+    "lng": -85.419484
+  },
+  {
+    "canton": "Puntarenas Central",
+    "casos": 1434,
+    "tasa": 1099.17064,
+    "lat": 9.978011,
+    "lng": -84.829509
+  },
+  {
+    "canton": "Esparza",
+    "casos": 472,
+    "tasa": 1332.129149,
+    "lat": 9.961492,
+    "lng": -84.700555
+  },
+  {
+    "canton": "Buenos Aires",
+    "casos": 78,
+    "tasa": 155.8223625,
+    "lat": 9.167475,
+    "lng": -83.331814
+  },
+  {
+    "canton": "Montes De Oro",
+    "casos": 523,
+    "tasa": 3850.968264,
+    "lat": 10.083284,
+    "lng": -84.728966
+  },
+  {
+    "canton": "Osa",
+    "casos": 223,
+    "tasa": 736.1679651,
+    "lat": 8.968251,
+    "lng": -83.523174
+  },
+  {
+    "canton": "Aguirre",
+    "casos": 238,
+    "tasa": 777.1936126,
+    "lat": 9.430326,
+    "lng": -84.163623
+  },
+  {
+    "canton": "Golfito",
+    "casos": 1036,
+    "tasa": 2409.078225,
+    "lat": 8.604065,
+    "lng": -83.112648
+  },
+  {
+    "canton": "Coto Brus",
+    "casos": 13,
+    "tasa": 29.58647215,
+    "lat": 8.822949,
+    "lng": -82.96948
+  },
+  {
+    "canton": "Parrita",
+    "casos": 196,
+    "tasa": 1070.745698,
+    "lat": 9.518671,
+    "lng": -84.330711
+  },
+  {
+    "canton": "Corredores",
+    "casos": 1198,
+    "tasa": 2420.153128,
+    "lat": 8.648698,
+    "lng": -82.94416
+  },
+  {
+    "canton": "Garabito",
+    "casos": 141,
+    "tasa": 619.3174331,
+    "lat": 9.620044,
+    "lng": -84.621541
+  },
+  {
+    "canton": "Limon Central",
+    "casos": 302,
+    "tasa": 307.9590068,
+    "lat": 9.989205,
+    "lng": -83.049529
+  },
+  {
+    "canton": "Pococ�",
+    "casos": 199,
+    "tasa": 142.1682443,
+    "lat": 10.215683,
+    "lng": -83.786106
+  },
+  {
+    "canton": "Siquirres",
+    "casos": 26,
+    "tasa": 41.51564022,
+    "lat": 10.097968,
+    "lng": -83.509813
+  },
+  {
+    "canton": "Talamanca",
+    "casos": 30,
+    "tasa": 76.95464806,
+    "lat": 9.625683,
+    "lng": -82.853265
+  },
+  {
+    "canton": "Matina",
+    "casos": 41,
+    "tasa": 94.15330914,
+    "lat": 10.076889,
+    "lng": -83.291281
+  },
+  {
+    "canton": "Guacimo",
+    "casos": 39,
+    "tasa": 77.49473433,
+    "lat": 10.21286,
+    "lng": -83.695556
+  }
+]
