@@ -75,7 +75,9 @@ d3.json("data/locations.json", function(collection) {
 			tooltip.transition()
 				.duration(200)
 				.style("opacity", .9)
-			tooltip.html("<p>" + d.casos + "</p><br/>" + d.tasa.toFixed(2)+"%")
+			tooltip.html("<p><strong>Location: </strong>" + d.canton + "</p><br/>" +
+						"<p><strong>Cases: </strong>" + d.casos + "</p><br/>" +
+						"<p><strong>Rate: </strong>" + d.tasa.toFixed(2)+"%" + "</p>")
 				.style("left", function(){
                   if (d3.event.pageX > variableWidth /2) {
                     return (d3.event.pageX - 170) + "px";
