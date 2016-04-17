@@ -32,7 +32,7 @@ var casosScale = d3.scale.linear()
 var xAxis = d3.svg.axis()
     .scale(weekScale)
     .orient("top")
-    .ticks(30)
+    // .ticks(30)
 
 var yAxis = d3.svg.axis()
     .scale(regionScale)
@@ -42,12 +42,21 @@ var svg = d3.select("#chart").append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("class", "x axis")
-  .call(xAxis)
-  .attr("class", "y axis")
-  .call(yAxis)
+  // .attr("class", "x axis")
+  // .call(xAxis)
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+svg.append("g")
+  .attr("class", "x axis")
+  // .attr("transform", "translate(0," + height + ")")
+    .attr("transform", "translate(" + height + " + ,0)")
+
+  .call(xAxis)
+
+svg.append("g")
+  .attr("class", "y axis")
+  .attr("transform", "translate(0," + width + ")")
+  .call(yAxis)
 
 var tooltip = d3.select(".tooltip")
 
@@ -130,16 +139,4 @@ d3.json("data/heatmap.json", function(heatmap) {
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
 
