@@ -65,3 +65,11 @@ fill: #000;
 #chart {
 	margin-top: 100px;
 }
+
+.axis > path {
+	display: none;
+}
+
+svg {
+  font: 10px sans-serif;
+}
