@@ -6,13 +6,14 @@ var variableWidthSTR = d3.select("#chart").style("width");
 var variableWidth = parseInt(variableWidthSTR.substring(0, variableWidthSTR.length - 2));
 
 // Heatmap
-var margin = { top: 50, right: 20, bottom: 100, left: 20 },
+var margin = { top: 30, right: 30, bottom: 30, left: 30 },
   width = variableWidth - margin.left - margin.right,
-  height = 500 - margin.top - margin.bottom,
+  height = 450 - margin.top - margin.bottom,
   gridSize = Math.floor(width / 52),
-  legendElementWidth = gridSize*2,
+  // legendElementWidth = gridSize*2,
   buckets = 9,
-  colors = ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'], // alternatively colorbrewer.YlGnBu[9]
+  colors = ['#9e0142','#d53e4f','#f46d43','#fdae61','#fee08b','#ffffbf','#e6f598','#abdda4','#66c2a5','#3288bd','#5e4fa2']
+  // colors = ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'], // alternatively colorbrewer.YlGnBu[9]
   regiones=["Brunca","Central Este","Central Norte","Central Sur","Chorotega","Huetar Caribe","Huetar Norte","Occidente","Pacifico Central","Total"]
   weeks = [];
 
@@ -22,8 +23,9 @@ var weekScale = d3.scale.linear()
   .range([0,width])
 
 var regionScale = d3.scale.linear()
-  .domain([1, 9])
+  .domain([1, 8])
   .range([0,height])
+  // .range([height, 0])
 
 var casosScale = d3.scale.linear()
   .domain([0, 520])
@@ -32,7 +34,7 @@ var casosScale = d3.scale.linear()
 var xAxis = d3.svg.axis()
     .scale(weekScale)
     .orient("top")
-    // .ticks(30)
+    .ticks(30)
 
 var yAxis = d3.svg.axis()
     .scale(regionScale)
@@ -42,20 +44,16 @@ var svg = d3.select("#chart").append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  // .attr("class", "x axis")
-  // .call(xAxis)
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.append("g")
   .attr("class", "x axis")
   // .attr("transform", "translate(0," + height + ")")
-    .attr("transform", "translate(" + height + " + ,0)")
-
   .call(xAxis)
 
 svg.append("g")
   .attr("class", "y axis")
-  .attr("transform", "translate(0," + width + ")")
+  // .attr("transform", "translate(" + width + ",0)")
   .call(yAxis)
 
 var tooltip = d3.select(".tooltip")
