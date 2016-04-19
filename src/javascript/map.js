@@ -18,6 +18,7 @@ leaflet.tileLayer(
 /* Initialize the SVG layer */
 map._initPathRoot()
 
+var zoom = map.getZoom(zoom)
 
 /* We simply pick up the SVG from the map object */
 var svg = d3.select("#map").select("svg"),
@@ -36,6 +37,7 @@ var tooltip = d3.select("body").append("div")
 
 var variableWidthSTR = d3.select("body").style("width");
 var variableWidth = parseInt(variableWidthSTR.substring(0, variableWidthSTR.length - 2));
+
 
 
 d3.json("data/locations.json", function(collection) {
@@ -79,18 +81,17 @@ d3.json("data/locations.json", function(collection) {
 			.style("opacity", 0)
 		});
 
-
 	map.on("viewreset", update);
 	update();
 
 	function update() {
 		feature
-		// .transition().duration(2000).delay(function(d, i) {return i*2})
-		.attr("transform",
-		function(d) {
-			return "translate("+
-			  map.latLngToLayerPoint(d.LatLng).x +","+
-			  map.latLngToLayerPoint(d.LatLng).y +")";
-		})
+			.attr("transform",
+				function(d) {
+					return "translate("+
+					  map.latLngToLayerPoint(d.LatLng).x +","+
+					  map.latLngToLayerPoint(d.LatLng).y +")";
+				})
+			.attr("r",function(d) { return radiusScale(d.casos)/400*Math.pow(2,map.getZoom())})
 	}
 })
