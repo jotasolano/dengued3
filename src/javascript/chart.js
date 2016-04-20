@@ -10,7 +10,19 @@ var margin = { top: 30, right: 30, bottom: 30, left: 80 },
   height = 360 - margin.top - margin.bottom,
   gridSize = Math.floor(width / 52),
   buckets = 9,
-  colors = ['#9e0142','#d53e4f','#f46d43','#fdae61','#fee08b','#ffffbf','#e6f598','#abdda4','#66c2a5','#3288bd','#5e4fa2']
+//   colors = ["#E1B073",
+// "#A6BEED",
+// "#D7DE62",
+// "#EAACD7",
+// "#9BE381",
+// "#F1A49E",
+// "#76E2B4",
+// "#ECBA56",
+// "#7EDADC",
+// "#C0D590",
+// "#C5C9DA"]
+  colors = ['#dde0a7','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#253494','#081d58']
+  // colors = ['#9e0142','#d53e4f','#f46d43','#fdae61','#fee08b','#ffffbf','#e6f598','#abdda4','#66c2a5','#3288bd','#5e4fa2']
   // colors = ['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'], // alternatively colorbrewer.YlGnBu[9]
   regiones=["Brunca","Central Este","Central Norte","Central Sur","Chorotega","Huetar Caribe","Huetar Norte","Occidente","Pacifico Central","Total"]
   weeks = [];
@@ -26,7 +38,7 @@ var regionScale = d3.scale.linear()
   .range([0,height])
 
 var casosScale = d3.scale.linear()
-  .domain([0, 520])
+  .domain([0, 550])
   .range([0, colors.length])
 
 

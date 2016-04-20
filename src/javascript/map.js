@@ -30,11 +30,11 @@ var tasa_cont = svg.append("g");
 
 var radiusScale = d3.scale.linear()
 	.domain([0, 1883])
-	.range([5,40])
+	.range([5,30])
 
 var radiusScaleTasa = d3.scale.linear()
 	.domain([0, 9500])
-	.range([5,40])
+	.range([5,30])
 
 
 var tooltip = d3.select("body").append("div") 
@@ -59,8 +59,8 @@ d3.json("data/locations.json", function(collection) {
 		.enter().append("circle")
 		.attr("class", "circle_cases") //g.selectAll(".circle_cases")
 		// .style("stroke", "black")
-		.style("opacity", .2)
-		.style("fill", "blue")
+		.style("opacity", .3)
+		.style("fill", "#3288bd")
 		// .attr("r", 1)
 		// .transition().duration(2000).delay(function(d, i) {return i*30})
 		.attr("r", function(d) {return radiusScale(d.casos)})
@@ -93,8 +93,8 @@ d3.json("data/locations.json", function(collection) {
 		.enter().append("circle")
 		.attr("class", "circle_tasas") //g.selectAll(".circle_cases")
 		// .style("stroke", "black")
-		.style("opacity", .2)
-		.style("fill", "red")
+		.style("opacity", .3)
+		.style("fill", "#d53e4f")
 		// .attr("r", 1)
 		// .transition().duration(2000).delay(function(d, i) {return i*30})
 		.attr("r", function(d) {return radiusScaleTasa(d.tasa)})
