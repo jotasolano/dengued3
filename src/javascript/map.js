@@ -6,7 +6,9 @@ var leaflet = require('leaflet')
 // var map = require('./map.js')
 
 
-var map = leaflet.map('map').setView([10, -84], 8);
+var map = leaflet.map('map').setView([9.8, -84], 8);
+map.scrollWheelZoom.disable();
+scrollWheelZoom: false;
 mapLink =
     '<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 leaflet.tileLayer(
@@ -32,11 +34,11 @@ var radiusScale = d3.scale.linear()
 
 var radiusScaleTasa = d3.scale.linear()
 	.domain([0, 9500])
-	.range([5,20])
+	.range([5,40])
 
 
 var tooltip = d3.select("body").append("div") 
-    .attr("class", "tooltip")       
+    .attr("class", "tooltip")      
     .style("opacity", 0);
 
 
@@ -123,22 +125,22 @@ d3.json("data/locations.json", function(collection) {
 	map.on("viewreset", update);
 	update();
 
-	// active all checkbox inputs
+	// activate all checkbox inputs
 	d3.selectAll('input').attr('checked','true');
 
 	// select input from html by className
 	var cases_input = d3.selectAll('.cases_input');
-	// define D3 event change
+	// define D3 change event
 	cases_input.on('change',function () {
 		// define display based on 'checked' (true or false). 
 		var display = this.checked ? "inline" : "none";
-		// slect circles
+		// select circles
 		svg.selectAll(".circle_cases")
-			// apply dislay to display
+			// apply display
 			.attr("display", display);
 	})
 
-	// same ^^^
+	// same as ^
 	var tasa_input = d3.selectAll('.tasa_input');
 	tasa_input.on('change',function () {
 		var display = this.checked ? "inline" : "none";
@@ -155,6 +157,7 @@ d3.json("data/locations.json", function(collection) {
 					  map.latLngToLayerPoint(d.LatLng).y +")";
 				})
 			.attr("r",function(d) { return radiusScale(d.casos)/200*Math.pow(2,map.getZoom())})
+		
 		tasas
 			.attr("transform",
 				function(d) {
